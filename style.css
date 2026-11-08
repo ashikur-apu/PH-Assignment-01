@@ -321,3 +321,106 @@
 }
 
 /* plan style end  */
+
+/* ==================== AI GENERATOR SECTION STYLES START ==================== */
+
+.ai-generator-section {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 100%);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  border-top: 2px dashed #c084fc;
+  border-bottom: 2px dashed #c084fc;
+}
+
+.ai-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ai-badge {
+  display: inline-block;
+  background-color: #7c3aed;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 6px 14px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.ai-container h2 {
+  font-size: 36px;
+  color: #2e1065;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.ai-subtitle {
+  font-size: 15px;
+  color: #6b21a8;
+  max-width: 600px;
+  margin: 0 auto 40px auto;
+  line-height: 1.5;
+}
+
+.ai-grid-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.ai-feature-card {
+  background-color: #ffffff;
+  padding: 30px 20px;
+  border-radius: 12px;
+  width: 30%;
+  box-shadow: 0 10px 25px -5px rgba(124, 58, 237, 0.1);
+  box-sizing: border-box;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.ai-feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.ai-icon {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.ai-feature-card h3 {
+  font-size: 18px;
+  color: #2e1065;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.ai-feature-card p {
+  font-size: 13px;
+  color: #6b7280;
+  line-height: 1.4;
+}
+
+.ai-primary-btn {
+  display: inline-block;
+  background-color: #7c3aed;
+  color: #ffffff;
+  padding: 14px 32px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.3);
+  transition: background-color 0.2s ease;
+}
+
+.ai-primary-btn:hover {
+  background-color: #6d28d9;
+}
+
+/* ==================== AI GENERATOR SECTION STYLES END ==================== */
