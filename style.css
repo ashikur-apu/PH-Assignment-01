@@ -1,0 +1,66 @@
+/* nav style start  */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; 
+}
+
+.navigation-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  background-color: #ffffff;
+}
+
+.brand-logo-pic img {
+  height: 65px;
+  width: auto;
+  display: block;
+}
+
+.nav-link-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.nav-menu-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #475569;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.nav-link:hover {
+  color: #ed05bf;
+}
+
+.register-button {
+  display: flex;
+  align-items: center;
+}
+
+.register-btn {
+  background-color: #0b4fe0;
+  color: #ffffff;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: 700;
+ 
+}
+
+.register-btn:hover {
+  background-color: #8605ef;
+}
+
+/* Nav style end  */
