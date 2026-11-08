@@ -424,3 +424,43 @@
 }
 
 /* ==================== AI GENERATOR SECTION STYLES END ==================== */
+
+/* Footer style start  */
+
+.footer-section {
+  background-color: #0b132b;
+  padding: 25px 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #6c7a89;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-text p {
+  font-size: 14px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.copyright-pic {
+  width: 14px;
+  height: 14px;
+}
+
+.Conditions {
+  display: flex;
+  gap: 20px;
+}
+
+.Conditions span {
+  font-size: 14px;
+  color: #6c7a89;
+}
+
+/* Footer style end  */
