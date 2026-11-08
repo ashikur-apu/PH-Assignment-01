@@ -64,3 +64,70 @@
 }
 
 /* Nav style end  */
+
+
+/* Hero style start  */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero-banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+}
+
+.hero-content {
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.title h1 {
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.text p {
+  font-size: 15px;
+  color: #dddddd;
+  margin-bottom: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register-button {
+  text-align: center;
+}
+
+.register-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+}
+
+.register-btn:hover {
+  background-color: #1d4ed8;
+}
+
+/* Hero style end  */
